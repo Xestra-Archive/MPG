@@ -1,33 +1,20 @@
-# Mass Password Generator
-A simple mass password generator that is easy to use.
+# MPG
 
-## How to use the generator
-Just run the python file and make sure you have python installed. When you run the file just answer the inputs. Then, you will get your file with all of your passwords.
+## 😀 About The Project
+Just run the python file and make sure you have python installed. When you run the file just answer the inputs. Then, you will get your file with all of your passwords. The benchmarks are good, with 16 characters and 100 passwords were generated in 0.0029 seconds.
 
-## Benchmarking
-- specs
-    - I5 8600k
-    - 32GB of ram
-- 10 characters
-    - 100 passwords
-        - 0.0026 Seconds
-    - 10000 passwords
-        - 0.0931 Seconds
-- 16 characters
-    - 100 passwords
-        - 0.0029 Seconds
-    - 10000 passwords
-        - 0.1375 Seconds
+## 👿 Bugs
+- None
 
-## Code
-```python
-import random
-import string
+## 🤔 What I learned
+- How to generate files with the with statment
+- How to generate passwords in python
+- How to benchmark in python using time
 
-chars = string.ascii_lowercase + string.ascii_uppercase + string.digits + '!#$%&()*+,-./:;<=>?@[]^_`{|}~'
+## 👨‍💻 Contributors
+- [Xestra](https://github.com/Xestra1)
 
-def gen(length):
-    password = ''.join(random.choice(chars) for i in range(length))
-    password.strip(' ')
-    return str(password)
-```
+## 🌐 Other Information
+- [Website](https://xestra.us/)
+- [GitHub](https://github.com/Xestra1) 
+- [Discord](https://discord.gg/gRS7gw4)
